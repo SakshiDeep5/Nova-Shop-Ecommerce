@@ -1,5 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar";
+import CartIcon from "../Icons/CartIcon";
 
 const Navbar = () => {
   return (
@@ -18,6 +19,7 @@ const Navbar = () => {
         {/* Right Icons */}
         <div className="flex items-center gap-6">
           <div className="relative cursor-pointer">
+            <CartIcon/>
             <span className="absolute -top-2 -right-2 bg-blue-600 text-white text-xs px-1.5 py-[1px] rounded-full">
               3
             </span>
